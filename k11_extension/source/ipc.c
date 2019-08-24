@@ -298,7 +298,7 @@ bool doErrfThrowHook(u32 *cmdbuf)
             If you're getting this error, you have broken your head-tracking hardware,
             and should uncomment the following line:
         */
-        //{ "qtm", (Result)0xF96183FE },
+        { "qtm", (Result)0xF96183FE },
 
         { "", 0 }, // impossible case to ensure the array has at least 1 element
     };
